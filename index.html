@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <section class="todo-container">
+        <br />
+        <br />
+        <br />
+
+        <section class="todo-controls">
+          <button class="all active" type="button">전체보기</button>
+          <button class="isProgress" type="button">진행중</button>
+          <button class="completed" type="button">완료</button>
+        </section>
+
+        <br />
+
+        <section class="todo-form">
+          <input
+            class="todo-input"
+            type="text"
+            placeholder="할 일을 추가해주세요."
+          />
+        </section>
+
+        <br />
+
+        <section class="todo-items"></section>
+
+        <br />
+        <br />
+        <br />
+      </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

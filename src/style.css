@@ -1,0 +1,33 @@
+.todo-container {
+  margin: 40px 80px;
+}
+
+.todo-controls button {
+  width: 80px;
+  height: 30px;
+}
+
+.todo-controls button.active {
+  background-color: wheat;
+  border: none;
+}
+
+.todo-input {
+  width: 240px;
+  height: 30px;
+}
+
+.todo-item .item-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.todo-item .item-content {
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.todo-item .item-deleteBtn {
+  width: 40px;
+}
