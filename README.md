@@ -1,5 +1,12 @@
 # ts-vanilla-todolist
 
+
+## 실행방법
+```
+yarn build
+yarn dev
+```
+
 ## 요구사항
 
 #### 1. Create
