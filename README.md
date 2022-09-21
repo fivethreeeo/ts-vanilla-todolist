@@ -1,13 +1,18 @@
 # ts-vanilla-todolist
 
-
 ## 실행방법
+
 ```
 yarn build
 yarn dev
 ```
 
-## 요구사항
+## 구현 내용
+
+- 데이터를 관리하는 `Store` 와 화면을 표시하는 `View` 파일로 분리
+- 공통으로 쓰이는 `enum`과 `type`를 파일로 분리
+  - type분리를 할 때 `d.ts` 형식 등 방법이 있는 것 같은데 `enum` 은 해당 `d.ts` 파일에 넣으면 에러가 나서 아직 학습이 더 필요할 것 같아서 일단 `ts` 파일로 분리했다.
+  - `TodoView`에서 `Store`를 파라미터로 받기 때문에 View에서 Store의 타입을 알고있어야 한다. 그래서 View에서 Store파일을 직접 import를 했는데 이게 좋은 방법인지 모르겠다. Store 전체 파일을 import 안해도 되는 방법이 있을 것 같아서 더 학습을 해봐야겠다.
 
 #### 1. Create
 
